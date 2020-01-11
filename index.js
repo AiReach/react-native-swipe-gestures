@@ -38,7 +38,7 @@ function isValidSwipe(
 class GestureRecognizer extends Component {
   constructor(props, context) {
     super(props, context);
-    console.warn(this.props.config)
+//     console.warn(this.props.config)
     this.swipeConfig = Object.assign(swipeConfig, props.config);
   }
 
